@@ -1,0 +1,100 @@
+.Header {
+  padding: 0px 50px;
+  /*height: 45px;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.home,
+.about,
+.skills,
+.contact {
+  font-size: 22px;
+  cursor: pointer;
+  font-family: Arial;
+  transition: color 0.1s;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.contact:hover {
+  color: rgb(21, 226, 21);
+}
+
+.home:hover {
+  color: rgb(21, 226, 21);
+}
+
+.skills:hover {
+  color: rgb(21, 226, 21);
+}
+
+.about:hover {
+  color: rgb(21, 226, 21);
+}
+
+.left-side {
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 150px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 100px 50px;
+}
+
+.description {
+  /*margin-left: 60px;*/
+  flex: 1;
+}
+
+.p-1,
+.p-2 {
+  font-family: Arial;
+}
+
+.h-1,
+.h-3 {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.image-container {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  /*margin-left: 200px;*/
+  flex: 1;
+}
+
+.about-me {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 0px 50px;
+  margin-top: 50px;
+}
+
+.p-content {
+  font-family: Arial;
+  font-size: 21px;
+}
